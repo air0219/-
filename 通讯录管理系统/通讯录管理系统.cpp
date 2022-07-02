@@ -315,7 +315,7 @@ void modifyPerson(Addressbooks *ads)
 		return;
 	}
 }
-
+//清空通讯录函数
 void delAddressbooks(Addressbooks *ads)
 {
 	ads->m_size = 0;
